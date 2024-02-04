@@ -1,0 +1,21 @@
+Operator Precedence | Operator Associativity
+
+Postfix increment (++) and decrement (--)                                           **Right to left
+Unary plus (+) and minus (-), logical NOT (!)                                       **Right to left
+Exponentiation ()**                                                                 **Right to left 
+
+
+Multiplication (), division (/), remainder (%)*                                     Left to right
+Addition (+) and subtraction (-)                                                    Left to right
+Shift operators (<<, >>, >>>)                                                       Left to right
+Relational operators (<, >, <=, >=, instanceof, in)                                 Left to right
+Equality operators (==, !=, ===, !==)                                               Left to right
+Bitwise AND (&)                                                                     Left to right
+Bitwise XOR (^)                                                                     Left to right
+Bitwise OR (|)                                                                      Left to right
+Logical AND (&&)                                                                    Left to right
+Logical OR (||)                                                                     Left to right
+
+
+Conditional (?:)                                                                    **Right to left
+*Assignment (=, +=, -=, =, /=, %=, <<=, >>=, >>>=, &=, ^=, |=)                      **Right to left
