@@ -1,4 +1,4 @@
-// When we use new keyword on a function, and then use this keyword inside that function, it creates a new empty object and assigns it to 'this' keyword.
+// When we use new keyword on a function, and then use this keyword inside that function, it creates a new empty object and assigns it to 'this' keyword. This is how the classes work under the hood.
 
 
 function createcar(_name, _model, _year) {
